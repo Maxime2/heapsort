@@ -30,12 +30,6 @@
  * SUCH DAMAGE.
  */
 
-#if defined(LIBC_SCCS) && !defined(lint)
-static char sccsid[] = "@(#)heapsort.c	8.1 (Berkeley) 6/4/93";
-#endif /* LIBC_SCCS and not lint */
-#include <sys/cdefs.h>
-__FBSDID("$FreeBSD: src/lib/libc/stdlib/heapsort.c,v 1.5.2.1 2008/01/26 08:21:13 das Exp $");
-
 #include <errno.h>
 #include <stddef.h>
 #include <stdlib.h>
