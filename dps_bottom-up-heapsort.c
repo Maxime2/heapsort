@@ -121,7 +121,7 @@ heapsort(vbase, nmemb, size, compar)
 		return (-1);
 	}
 
-	if ((k = malloc(2 * size)) == NULL)
+	if ((k = malloc(size)) == NULL)
 		return (-1);
 
 	/*
